@@ -18,6 +18,30 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+    font-weight: 500;
+    font-size: 1.5;
+    margin: 0; 
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    width: 25%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
 .wrapper {
     height: 100%;
     background-color: white;
@@ -25,11 +49,11 @@ body {
 
 .main-nav {
     position: fixed;
-    left: 58px;
+    left: 3em;
     top: 30px;
 }
 
-    .main-nav a {
+    .main-nav .nav-link {
         margin-right: 10px;
     }
 
@@ -40,10 +64,50 @@ body {
     flex-grow: 1;
 }
 
+.video-wrapper {
+    flex-grow: 1;
+    position: relative;
+    padding-bottom: 56.28%;
+    padding-top: 25px;
+    height: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
 .main-content {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.heading {
+    padding: 1em 0;
+}
+
+.details {
+    padding: 3em 3em;
+}
+
+.content {
+    padding: .7em 3em;
+}
+
+.main-info {
+    padding-bottom: 2em;
 }
 
 .nav-link {
@@ -51,17 +115,20 @@ body {
     color: black;
 }
 
-.details {
-    padding: 3em 3em;
-}
-
 .button {
-    text-align: center;
     font-weight: 500;
     padding-top: 1em;
 }
 
-    .button a {
+    .home {
+        text-align: center;
+    }
+
+    .about {
+        text-align: right;
+    }
+
+    .button .nav-link {
        border: 2px solid black;
        border-radius: 3px; 
        padding: 5px 15px;
@@ -86,12 +153,29 @@ body {
         max-width: 50%;
     }
 
-    .button {
+    .home {
         padding-top: 2em;
     }
+
 } 
 
 @media (min-width: 1025px) {
+
+    .header {
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 2em;
+    }
+
+    .heading {
+        padding-top: .5em;
+        padding-left: 10%;
+        white-space: nowrap;
+    }
+
+    .about {
+        margin-left: auto;
+    }
 
     .main-nav {
         top: 60px;
@@ -99,6 +183,17 @@ body {
 
     .details {
         padding-top: 8em;
+    }
+
+    .content {
+        padding-top: 2em;
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+
+    .video-wrapper {
+        max-width: 80%;
+        margin: auto;
     }
 }
 
