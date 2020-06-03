@@ -2,15 +2,12 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Table from './Table';
 import List from './List';
+import Form from './Form'; // contact form
 
 class Portfolio extends Component {
 
-    constructor () {
-        super ();
-        this.state = {
-            isDesktop: false
-        };
-        this.updatePredicate = this.updatePredicate.bind (this);  
+    state = {
+        isDesktop: false
     }
 
     componentDidMount () {
@@ -22,35 +19,45 @@ class Portfolio extends Component {
         window.removeEventListener ('resize', this.updatePredicate);
     }
 
-    updatePredicate () {
+    /**
+     * Update state if width of the window gets greater than 768 px
+     */
+    updatePredicate = () => {
         this.setState ({ isDesktop: window.innerWidth > 768 });
     }
 
     render () {
         return (
-            <div className='content'>
-                <div className='header'>
-                    <h2 className='heading'>TOBIAS SPEISER | MODELING & LOOK DEV</h2>
-                    <div className='button about'>
-                        <Link to='/about' className='nav-link'>ABOUT ME</Link>
+            <React.Fragment>
+                <div className='content'>
+                    <div className='header'>
+                        <h2 className='heading'>TOBIAS SPEISER | MODELING & LOOK DEV</h2>
+                        <div className='button about'>
+                            <Link to='/about' className='nav-link'>ABOUT ME</Link>
+                        </div>
+                    </div>
+                    <div className='main-info'>
+                        <div className='video-wrapper'>
+                            <iframe 
+                                title='Showreel'
+                                src='https://www.youtube.com/embed/sxNVFklby-Q' 
+                                frameBorder='0' 
+                                scrolling='no'
+                                allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' 
+                                allowFullScreen />
+                        </div>
+                    </div>
+                    { // Render Table if desktop or list if not 
+                        this.state.isDesktop ?
+                        <Table /> : <List />
+                    }
+                    <div className='contact-form'>
+                        <h3>CONTACT ME IF YOU HAVE A QUESTION</h3>
+                        <Form />
                     </div>
                 </div>
-                <div className='main-info'>
-                    <div className='video-wrapper'>
-                        <iframe 
-                            title='Showreel'
-                            src='https://www.youtube.com/embed/sxNVFklby-Q' 
-                            frameBorder='0' 
-                            scrolling='no'
-                            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' 
-                            allowFullScreen />
-                    </div>
-                </div>
-                { 
-                    this.state.isDesktop ?
-                    <Table /> : <List />
-                }
-            </div>
+                <footer />
+            </React.Fragment>
         );
     }
 };
