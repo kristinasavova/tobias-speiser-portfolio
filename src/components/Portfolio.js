@@ -31,12 +31,12 @@ class Portfolio extends Component {
             <React.Fragment>
                 <div className='content'>
                     <div className='header'>
-                        <h2 className='heading'>TOBIAS SPEISER | MODELING & LOOK DEV</h2>
                         <div className='button about'>
                             <Link to='/about' className='nav-link'>ABOUT ME</Link>
                         </div>
                     </div>
                     <div className='main-info'>
+                        <h2 className='heading'>TOBIAS SPEISER | MODELING & LOOK DEV</h2>
                         <div className='video-wrapper'>
                             <iframe 
                                 title='Showreel'
