@@ -37,6 +37,7 @@ table {
 
 td {
     width: 25%;
+    height: 120px;
     padding-bottom: 15px;
     text-align: center;
 }
@@ -52,6 +53,11 @@ footer {
     background-color: black;
     margin-top: auto;
     height: 10vh;
+}
+
+.skills-table img {
+    filter: grayscale(30%);  
+    -webkit-filter: grayscale(30%);
 }
 
 .wrapper {
@@ -166,6 +172,7 @@ footer {
 
     .about {
         text-align: right;
+        padding-top: 1em;
     }
 
     .button .nav-link {
@@ -213,7 +220,8 @@ footer {
     } 
 
     .about {
-        margin-left: auto;
+        padding-top: 1.3em;
+        padding-right: 5%;
     }
 
     .main-nav {
@@ -244,6 +252,12 @@ footer {
         padding-right: 2em;
         padding-bottom: 1.5em;
         margin: 1.5em auto;
+    }
+
+    table {
+        width: 90%;
+        margin: auto;
+        padding: 1em 0;
     }
 
 }
