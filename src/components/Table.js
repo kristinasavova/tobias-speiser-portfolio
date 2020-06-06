@@ -39,14 +39,14 @@ const Table = () => {
                         <td>
                             <img 
                                 src='/images/zbrush-logo.png' 
-                                width='100'
+                                width='90'
                                 height='auto'
                                 alt='ZBrush Logo' />
                         </td>
                         <td>
                             <img 
                                 src='/images/renderman-logo.png' 
-                                width='130'
+                                width='120'
                                 height='auto'
                                 alt='RenderMan Logo' />
                         </td>
@@ -58,32 +58,34 @@ const Table = () => {
                                 alt='Substance Designer Logo' />
                         </td>
                         <td>
-                            <img
-                                src='/images/after-effects.png' 
-                                width='120'
-                                height='auto'
-                                alt='After Effects Logo' />
+                            <div className='adobe'>
+                                <img
+                                    src='/images/after-effects-logo.jpeg' 
+                                    width='130'
+                                    height='auto'
+                                    alt='After Effects Logo' />
+                            </div>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <img 
                                 src='/images/3ds-max-logo.jpg' 
-                                width='140'
+                                width='130'
                                 height='auto'
                                 alt='3DS Max Logo' />
                         </td>
                         <td>
                             <img 
                                 src='/images/redshift-logo.png' 
-                                width='130'
+                                width='120'
                                 height='auto'
                                 alt='Redshift Logo' />
                         </td>
                         <td>
                             <img
                                 src='/images/mari-logo.jpeg' 
-                                width='130'
+                                width='110'
                                 height='auto'
                                 alt='Mari Logo' />
                         </td>
@@ -99,21 +101,21 @@ const Table = () => {
                         <td>
                             <img 
                                 src='/images/blender-logo.png' 
-                                width='140'
+                                width='130'
                                 height='auto'
                                 alt='Blender Logo' />
                         </td>
                         <td>
                             <img 
                                 src='/images/corona-logo.png' 
-                                width='130'
+                                width='110'
                                 height='auto'
                                 alt='Corona Logo' />
                         </td>
                         <td>
                             <img
                                 src='/images/photoshop-logo.png' 
-                                width='140'
+                                width='130'
                                 height='auto'
                                 alt='Photoshop Logo' />
                         </td>
@@ -122,7 +124,7 @@ const Table = () => {
                         <td>
                             <img
                                 src='/images/cinema-4d-logo.png' 
-                                width='100'
+                                width='90'
                                 height='auto'
                                 alt='Cinema 4D Logo' />
                         </td>

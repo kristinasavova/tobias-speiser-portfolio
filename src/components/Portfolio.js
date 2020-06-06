@@ -29,12 +29,12 @@ class Portfolio extends Component {
     render () {
         return (
             <React.Fragment>
-                <div className='content'>
-                    <div className='header'>
-                        <div className='button about'>
-                            <Link to='/about' className='nav-link'>ABOUT ME</Link>
-                        </div>
+                <header className='header'>
+                    <div className='button about'>
+                        <Link to='/about' className='nav-link'>ABOUT ME</Link>
                     </div>
+                </header>
+                <div className='content'>
                     <div className='main-info'>
                         <h2 className='heading'>TOBIAS SPEISER | MODELING & LOOK DEV</h2>
                         <div className='video-wrapper'>
