@@ -58,9 +58,9 @@ const Table = () => {
                                 alt='Substance Designer Logo' />
                         </td>
                         <td>
-                            <div className='adobe'>
+                            <div>
                                 <img
-                                    src='/images/after-effects-logo.jpeg' 
+                                    src='/images/after-effects.png' 
                                     width='130'
                                     height='auto'
                                     alt='After Effects Logo' />

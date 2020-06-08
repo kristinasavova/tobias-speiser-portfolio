@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Table from './Table';
 import List from './List';
 import Form from './Form'; // contact form
+import Footer from './Footer';
 
 class Portfolio extends Component {
 
@@ -29,7 +30,7 @@ class Portfolio extends Component {
     render () {
         return (
             <React.Fragment>
-                <header className='header'>
+                <header>
                     <div className='button about'>
                         <Link to='/about' className='nav-link'>ABOUT ME</Link>
                     </div>
@@ -56,7 +57,7 @@ class Portfolio extends Component {
                         <Form />
                     </div>
                 </div>
-                <footer />
+                <Footer />
             </React.Fragment>
         );
     }

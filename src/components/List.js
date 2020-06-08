@@ -4,24 +4,109 @@ const List = () => {
     return (
         <div className='skills-list'>
             <ul>
-                <li>Maya</li>
-                <li>ZBrush</li>
-                <li>3DS Max</li>
-                <li>Blender</li>
-                <li>Cinema 4D</li>
+                <li>
+                    <img 
+                        src='/images/maya-logo.png' 
+                        width='auto'
+                        height='35'
+                        alt='Maya Logo' />
+                    <img 
+                        src='/images/blender-logo.png' 
+                        width='auto'
+                        height='40'
+                        alt='Blender Logo' />
+                </li>
+                <li>
+                    <img 
+                        src='/images/3ds-max-logo.jpg' 
+                        width='auto'
+                        height='35'
+                        alt='3DS Max Logo' />
+                </li>
+                <li>
+                    <img
+                        src='/images/cinema-4d-logo.png' 
+                        width='auto'
+                        height='70'
+                        alt='Cinema 4D Logo' />
+                    <img 
+                        src='/images/zbrush-logo.png' 
+                        width='auto'
+                        height='85'
+                        alt='ZBrush Logo' />
+                </li>
                 <br />
-                <li>Arnold</li>
-                <li>RenderMan</li>
-                <li>Redshift</li>
-                <li>Corona</li>
+                <li>
+                    <img 
+                        src='/images/redshift-logo.png' 
+                        width='auto'
+                        height='60'
+                        alt='Redshift Logo' />
+                </li>
+                <li>
+                    <img 
+                        src='/images/arnold-logo.png' 
+                        width='auto'
+                        height='25'
+                        alt='Arnold Logo' />
+                    <img 
+                        src='/images/corona-logo.png' 
+                        width='auto'
+                        height='25'
+                        alt='Corona Logo' />
+                </li>
+                <li>
+                    <img 
+                        src='/images/renderman-logo.png' 
+                        width='auto'
+                        height='65'
+                        alt='RenderMan Logo' />
+                </li>
                 <br />
-                <li>Substance Painter/Designer</li>
-                <li>Mari</li>
-                <li>Photoshop</li>
+                <li>
+                    <img 
+                        src='/images/s-painter-logo.jpg' 
+                        width='auto'
+                        height='75'
+                        alt='Substance Painter Logo' />
+                    <img 
+                        src='/images/s-designer-logo.jpg' 
+                        width='auto'
+                        height='75'
+                        alt='Substance Designer Logo' />
+                </li>
+                <li>
+                    <img
+                        src='/images/photoshop-logo.png' 
+                        width='auto'
+                        height='40'
+                        alt='Photoshop Logo' />
+                    <img
+                        src='/images/mari-logo.jpeg' 
+                        width='auto'
+                        height='45'
+                        alt='Mari Logo' />
+                </li>
                 <br />
-                <li>Nuke</li>
-                <li>After Effects</li>
-                <li>Premiere Pro</li>
+                <li>
+                    <img
+                        src='/images/after-effects.png' 
+                        width='auto'
+                        height='40'
+                        alt='After Effects Logo' />
+                    <img
+                        src='/images/premiere-pro.png' 
+                        width='auto'
+                        height='40'
+                        alt='Premiere Pro' />
+                </li>
+                <li>
+                    <img
+                        src='/images/nuke-logo.png' 
+                        width='auto'
+                        height='35'
+                        alt='Nuke Logo' />
+                </li>
             </ul>
         </div>
     );

@@ -42,23 +42,53 @@ td {
     text-align: center;
 }
 
-ul {
+.skills-list ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
 
+    li {
+        padding: 10px 0;
+    }
+
+        li img {
+            margin: 0 10px;
+        }
+
 header {
     width: 100%;
+    padding: .55em 3em;
     height: 4.5em;
+    background-color: #9DEFE9;
 }
 
 footer {
     background-color: #303233;
+    font-size: .8em;
+    font-style: italic;
+    padding: 1em 1em 1em 4em;
     margin-top: auto;
-    height: 10vh;
+    color: white;
 }
+    .footer-list {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+        .footer-list li {
+            flex-grow: 1;
+        }
+
+            footer a {
+                text-decoration: none;
+                color: white;
+                margin-left: 5px;
+            }
 
 .skills-table img {
     filter: grayscale(10%);  
@@ -67,7 +97,6 @@ footer {
 
 .wrapper {
     height: 100%;
-    background-color: #303233;
 }
 
 .content {
@@ -116,25 +145,26 @@ footer {
 }
 
 .contact-form {
-    padding: 1em 1em;
+    padding: .5em 1.5em 1.1em 1.5em;
+    margin: 1em auto;
+    background-color: #9DEFE9;
+    border-radius: 20px;
+    color: #303233;
+    max-width: 500px;
 }
 
     .contact-form input, textarea {
         width: 100%;
         padding: 10px 15px;
-        margin: 10px 0;
-        box-sizing: border-box;
-        border: 2px solid darkslategrey;
+        margin: 5px 0;
+        border: 1.5px solid lightgrey;
         border-radius: 5px;
-    }
-
-    .contact-form textarea {
         resize: none;
     }
 
     .contact-form button {
         font-weight: 500;
-        border: 2px solid #303233;
+        border: 2px solid #6C6C6C;
         border-radius: 3px; 
         padding: 5px 25px;
         transition-duration: 0.4s;
@@ -144,13 +174,13 @@ footer {
     }
 
         .contact-form button:hover {
-            background-color: #303233;
+            background-color: #6C6C6C;
             color: white;
         }
 
 .heading {
-    padding-top: 1.5em;
-    padding-bottom: .5em;
+    padding: .5em 0;
+    color: #6C6C6C;
 }
 
 .details {
@@ -182,18 +212,18 @@ footer {
 
     .about {
         text-align: right;
-        padding-top: 1em;
     }
 
     .button .nav-link {
-       border: 2px solid #303233;
+       border: 2px solid #6C6C6C;
        border-radius: 3px; 
        padding: 5px 15px;
        transition-duration: 0.4s;
+       background-color: white;
     }
 
     .button .nav-link:hover {
-        background-color: #303233;
+        background-color: #6C6C6C;
         color: white;
     }
 
@@ -253,7 +283,6 @@ footer {
     }
 
     .contact-form {
-        border: solid 2px darkslategrey;
         border-radius: 15px;
         width: 60%;
         padding-top: 1em; 
