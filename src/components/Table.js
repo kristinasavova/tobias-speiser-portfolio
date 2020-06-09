@@ -9,7 +9,7 @@ const Table = () => {
                         <td>
                             <img 
                                 src='/images/maya-logo.png' 
-                                width='120'
+                                width='110'
                                 height='auto'
                                 alt='Maya Logo' />
                         </td>
@@ -23,14 +23,14 @@ const Table = () => {
                         <td>
                             <img 
                                 src='/images/s-painter-logo.jpg' 
-                                width='70'
+                                width='60'
                                 height='auto'
                                 alt='Substance Painter Logo' />
                         </td>
                         <td>
                             <img
                                 src='/images/nuke-logo.png' 
-                                width='120'
+                                width='110'
                                 height='auto'
                                 alt='Nuke Logo' />
                         </td>
@@ -39,7 +39,7 @@ const Table = () => {
                         <td>
                             <img 
                                 src='/images/zbrush-logo.png' 
-                                width='90'
+                                width='80'
                                 height='auto'
                                 alt='ZBrush Logo' />
                         </td>
@@ -53,18 +53,16 @@ const Table = () => {
                         <td>
                             <img 
                                 src='/images/s-designer-logo.jpg' 
-                                width='80'
+                                width='70'
                                 height='auto'
                                 alt='Substance Designer Logo' />
                         </td>
                         <td>
-                            <div>
-                                <img
-                                    src='/images/after-effects.png' 
-                                    width='130'
-                                    height='auto'
-                                    alt='After Effects Logo' />
-                            </div>
+                            <img
+                                src='/images/after-effects.png' 
+                                width='50'
+                                height='auto'
+                                alt='After Effects Logo' />
                         </td>
                     </tr>
                     <tr>
@@ -92,7 +90,7 @@ const Table = () => {
                         <td>
                             <img
                                 src='/images/premiere-pro.png' 
-                                width='120'
+                                width='50'
                                 height='auto'
                                 alt='Premiere Pro' />
                         </td>

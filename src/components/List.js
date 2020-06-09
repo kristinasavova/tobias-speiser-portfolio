@@ -32,7 +32,7 @@ const List = () => {
                     <img 
                         src='/images/zbrush-logo.png' 
                         width='auto'
-                        height='85'
+                        height='80'
                         alt='ZBrush Logo' />
                 </li>
                 <br />
@@ -40,7 +40,7 @@ const List = () => {
                     <img 
                         src='/images/redshift-logo.png' 
                         width='auto'
-                        height='60'
+                        height='70'
                         alt='Redshift Logo' />
                 </li>
                 <li>
@@ -59,7 +59,7 @@ const List = () => {
                     <img 
                         src='/images/renderman-logo.png' 
                         width='auto'
-                        height='65'
+                        height='70'
                         alt='RenderMan Logo' />
                 </li>
                 <br />
@@ -67,24 +67,24 @@ const List = () => {
                     <img 
                         src='/images/s-painter-logo.jpg' 
                         width='auto'
-                        height='75'
+                        height='80'
                         alt='Substance Painter Logo' />
                     <img 
                         src='/images/s-designer-logo.jpg' 
                         width='auto'
-                        height='75'
+                        height='80'
                         alt='Substance Designer Logo' />
                 </li>
                 <li>
                     <img
                         src='/images/photoshop-logo.png' 
                         width='auto'
-                        height='40'
+                        height='45'
                         alt='Photoshop Logo' />
                     <img
                         src='/images/mari-logo.jpeg' 
                         width='auto'
-                        height='45'
+                        height='50'
                         alt='Mari Logo' />
                 </li>
                 <br />
@@ -92,19 +92,19 @@ const List = () => {
                     <img
                         src='/images/after-effects.png' 
                         width='auto'
-                        height='40'
+                        height='45'
                         alt='After Effects Logo' />
                     <img
                         src='/images/premiere-pro.png' 
                         width='auto'
-                        height='40'
+                        height='45'
                         alt='Premiere Pro' />
                 </li>
                 <li>
                     <img
                         src='/images/nuke-logo.png' 
                         width='auto'
-                        height='35'
+                        height='40'
                         alt='Nuke Logo' />
                 </li>
             </ul>
